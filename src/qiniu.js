@@ -17,7 +17,7 @@
 ;(function( global ){
 
 /**
- * Creates new cookie or removes cookie with negative expiration
+ * 创建新的cookie或负到期删除的cookie
  * @param  key       The key or identifier for the store
  * @param  value     Contents of the store
  * @param  exp       Expiration - creation defaults to 30 days
@@ -30,7 +30,7 @@ function createCookie(key, value, exp) {
 }
 
 /**
- * Returns contents of cookie
+ *返回的cookie的内容
  * @param  key       The key or identifier for the store
  */
 function readCookie(key) {
